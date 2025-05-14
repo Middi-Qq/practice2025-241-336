@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogisticBot AI - Умная логистика</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <header class="header">
+        <h1>LogisticBot AI</h1>
+        <nav class="nav">
+            <ul>
+                <li><a href="#main" class="nav-link">Главная</a></li>
+                <li><a href="#about" class="nav-link">О проекте</a></li>
+                <li><a href="#team" class="nav-link">Участники</a></li>
+                <li><a href="#journal" class="nav-link">Журнал</a></li>
+                <li><a href="#resources" class="nav-link">Ресурсы</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section id="main" class="section">
+            <h2>Аннотация проекта</h2>
+            <p>LogisticBot AI - это инновационный телеграм-бот, использующий искусственный интеллект для оптимизации логистических маршрутов. Наш бот помогает компаниям и частным лицам находить наиболее эффективные пути доставки, учитывая множество факторов: стоимость, время в пути, загруженность дорог и экологичность маршрута.</p>
+            
+            <div class="stats-container">
+                <div class="stat-item">
+                    <div class="stat-number" id="economy">0</div>
+                    <div class="stat-label">% экономии</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" id="time">0</div>
+                    <div class="stat-label">% быстрее</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" id="clients">0</div>
+                    <div class="stat-label">довольных клиентов</div>
+                </div>
+            </div>
+
+            <div class="features">
+                <div class="feature-card">
+                    <h3>Оптимизация маршрутов</h3>
+                    <p>ИИ анализирует множество параметров для построения оптимальных маршрутов, экономя время и ресурсы.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Экономическая выгода</h3>
+                    <p>Снижение расходов на топливо и обслуживание транспортных средств за счет оптимизации маршрутов.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Удобство использования</h3>
+                    <p>Простой интерфейс в Telegram позволяет быстро получать оптимальные маршруты в любое время.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <h2>О проекте</h2>
+            <div class="project-section">
+                <h3>Что такое LogisticBot AI?</h3>
+                <p>LogisticBot AI - это умный помощник для логистических компаний и частных перевозчиков. Наш бот использует искусственный интеллект для оптимизации маршрутов доставки, помогая экономить время и ресурсы.</p>
+            </div>
+
+            <div class="project-section">
+                <h3>Почему LogisticBot AI?</h3>
+                <ul class="benefits-list">
+                    <li>Быстрая оптимизация маршрутов в реальном времени</li>
+                    <li>Экономия до 35% на топливе и обслуживании</li>
+                    <li>Экологичный подход к логистике</li>
+                    <li>Удобный интерфейс в Telegram</li>
+                    <li>Умные алгоритмы на базе ИИ</li>
+                </ul>
+            </div>
+
+            <div class="project-section">
+                <h3>Как это работает?</h3>
+                <div class="tech-stack">
+                    <div class="tech-item">
+                        <h4>1. Анализ данных</h4>
+                        <p>Бот собирает информацию о дорожной ситуации, погоде и других факторах, влияющих на маршрут</p>
+                    </div>
+                    <div class="tech-item">
+                        <h4>2. Оптимизация</h4>
+                        <p>ИИ анализирует все параметры и предлагает оптимальный маршрут с учетом ваших приоритетов</p>
+                    </div>
+                    <div class="tech-item">
+                        <h4>3. Результат</h4>
+                        <p>Вы получаете готовый маршрут с расчетом времени, стоимости и экологичности</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="team" class="section">
+            <h2>Наша команда</h2>
+            <p>В разработке LogisticBot AI принимают участие специалисты разных областей, каждый из которых вносит свой уникальный вклад в развитие проекта.</p>
+
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="fotio.jpg" alt="Фото участника">
+                    <h3>Мухамеддин Хабибуллаев</h3>
+                    <p class="role">Руководитель проекта</p>
+                    <div class="contribution">
+                        <h4>Вклад в проект:</h4>
+                        <ul>
+                            <li>Координация работы команды</li>
+                            <li>Разработка архитектуры системы</li>
+                            <li>Интеграция с внешними API</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="team-member">
+                    <img src="Женя фото.png" alt="Фото участника">
+                    <h3>Евгений Кривоножкин</h3>
+                    <p class="role">AI-специалист</p>
+                    <div class="contribution">
+                        <h4>Вклад в проект:</h4>
+                        <ul>
+                            <li>Разработка алгоритмов оптимизации</li>
+                            <li>Обучение моделей машинного обучения</li>
+                            <li>Анализ эффективности маршрутов</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="team-member">
+                    <img src="Гоша фото.jpg" alt="Фото участника">
+                    <h3>Григорий Мельников</h3>
+                    <p class="role">Разработчик Telegram-бота</p>
+                    <div class="contribution">
+                        <h4>Вклад в проект:</h4>
+                        <ul>
+                            <li>Разработка пользовательского интерфейса</li>
+                            <li>Интеграция с Telegram API</li>
+                            <li>Оптимизация производительности</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="team-member">
+                    <img src="Семён фото.jpg" alt="Фото участника">
+                    <h3>Квакин Семён</h3>
+                    <p class="role">Аналитик</p>
+                    <div class="contribution">
+                        <h4>Вклад в проект:</h4>
+                        <ul>
+                            <li>Анализ данных и метрик</li>
+                            <li>Оптимизация бизнес-процессов</li>
+                            <li>Исследование рынка</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="team-member">
+                    <img src="Даниил фото.jpg" alt="Фото участника">
+                    <h3>Денисенко Даниил</h3>
+                    <p class="role">Дизайнер</p>
+                    <div class="contribution">
+                        <h4>Вклад в проект:</h4>
+                        <ul>
+                            <li>Разработка пользовательского интерфейса</li>
+                            <li>Создание визуальной идентичности</li>
+                            <li>Улучшение UX/UI</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="journal" class="section">
+            <h2>Последние обновления</h2>
+
+            <article class="journal-post">
+                <div class="date">15 марта 2024</div>
+                <h3>Запуск бета-версии LogisticBot AI</h3>
+                <div class="content">
+                    <p>Мы рады сообщить о запуске бета-версии нашего телеграм-бота! После нескольких месяцев разработки и тестирования, мы готовы представить первую рабочую версию LogiBot AI.</p>
+                </div>
+                <div class="media-content">
+                    <img src="бот фото.jpg" alt="Скриншот бета-версии бота" class="post-image">
+                </div>
+                <div class="tags">
+                    <span class="tag">Запуск</span>
+                    <span class="tag">Бета-версия</span>
+                </div>
+            </article>
+
+            <article class="journal-post">
+                <div class="date">1 марта 2024</div>
+                <h3>Улучшение алгоритмов оптимизации</h3>
+                <div class="content">
+                    <p>Наша команда AI-специалистов завершила работу над улучшением алгоритмов оптимизации маршрутов. Тестирование показало улучшение точности расчетов на 25%.</p>
+                </div>
+                <div class="media-content">
+                    <video controls class="post-video">
+                        <source src="видео практика.mp4" type="video/mp4">
+                        Ваш браузер не поддерживает видео.
+                    </video>
+                </div>
+                <div class="tags">
+                    <span class="tag">AI</span>
+                    <span class="tag">Оптимизация</span>
+                </div>
+            </article>
+        </section>
+
+        <section id="resources" class="section">
+            <h2>Полезные ресурсы</h2>
+            
+            <div class="resource-category">
+                <h3>Документация</h3>
+                <div class="resource-card">
+                    <h4>Руководство пользователя</h4>
+                    <p class="description">Подробное руководство по использованию LogisticBot AI.</p>
+                    <a href="https://github.com/Middi-Qq/practice2025-241-336/blob/main/docs/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%20%D0%B4%D0%BB%D1%8F%20LogisticBot.md" class="link">Перейти к репозиторию</a>
+                </div>
+                <div class="resource-card">
+                    <h4>Telegram-бот</h4>
+                    <p class="description">Попробуйте нашего бота прямо сейчас!</p>
+                    <a href="https://t.me/LogisticPDG7Bot" class="link">Перейти к боту</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 LogisticBot AI. Все права защищены.</p>
+    </footer>
+
+    <script>
+        // Инициализация ScrollReveal
+        ScrollReveal().reveal('.section', {
+            delay: 200,
+            distance: '50px',
+            duration: 1000,
+            easing: 'cubic-bezier(0.5, 0, 0, 1)',
+            origin: 'bottom',
+            interval: 100
+        });
+
+        // Функция анимации счетчика
+        function animateCounter(element, target, duration = 2000) {
+            let start = 0;
+            const increment = target / (duration / 16); // 60fps
+            const timer = setInterval(() => {
+                start += increment;
+                if (start >= target) {
+                    element.textContent = target;
+                    clearInterval(timer);
+                } else {
+                    element.textContent = Math.floor(start);
+                }
+            }, 16);
+        }
+
+        // Функция для запуска счетчиков при появлении в поле зрения
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const economyElement = document.getElementById('economy');
+                    const timeElement = document.getElementById('time');
+                    const clientsElement = document.getElementById('clients');
+
+                    if (economyElement) animateCounter(economyElement, 35);
+                    if (timeElement) animateCounter(timeElement, 40);
+                    if (clientsElement) animateCounter(clientsElement, 250);
+
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, {
+            threshold: 0.5
+        });
+
+        // Наблюдаем за контейнером статистики
+        const statsContainer = document.querySelector('.stats-container');
+        if (statsContainer) {
+            observer.observe(statsContainer);
+        }
+
+        // Подсветка активного раздела при прокрутке
+        const sections = document.querySelectorAll('section');
+        const navLinks = document.querySelectorAll('.nav-link');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (pageYOffset >= sectionTop - 200) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').slice(1) === current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
